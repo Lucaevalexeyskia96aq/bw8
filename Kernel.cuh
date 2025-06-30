@@ -24,8 +24,8 @@
 
 #define ALPHABET_LEN 6
 
-const char ALPHABET[7] = "012469";
-__device__ __constant__ char _ALPHABET[7] = "012469";
+const char ALPHABET[7] = "012346";
+__device__ __constant__ char _ALPHABET[7] = "012346";
 
 cudaError_t loadPrefix(const char* _prefix, size_t const prefixLen);
 cudaError_t loadLevel(int _level);
